@@ -1,0 +1,16 @@
+<h2>Realtime Products</h2>
+<h2>Websocket</h2>
+<a href="/" style="text-decoration: none;">Home Page</a>
+<hr />
+
+<ul id="lista1">
+  {{#each resultado}}
+
+    <li>{{this.title}} </li>
+
+  {{/each}}
+
+</ul>
+
+<script src="socket.io/socket.io.js"></script>
+<script src="assets/scripts/realtimeproducts.js"></script>
